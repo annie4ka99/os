@@ -24,6 +24,7 @@ script=$1
 	touch $HOME/num
 	echo "0" > $HOME/num
 }
+
 name="$(cat $HOME/num)"
 
 trashDir=$HOME/.trash
